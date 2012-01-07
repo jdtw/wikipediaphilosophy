@@ -1,0 +1,21 @@
+LICENCE
+    Licensed under the MIT license. A copy of the license is in the 'LICENSE' file.
+
+USAGE
+    wiki.py [-i iterations] [-o outfile] [-p] [-l layout]
+        -i : iterations, default is 10
+        -o : outfile, without the file extension. 
+             e.g. specifying '-o wiki' (the default)
+             will output wiki.log, wiki.dot, and wiki.png
+             if -p is specified
+        -l : layout to be applied. One of 'twopi', 'neato', 
+             'dot', 'fdp'. 'dot' is the default. 
+        -p : print graph as png.
+        -s : url to start searching from. Must be of the form
+             /wiki/foo
+
+DEPENDENCIES
+    pygraphviz - http://networkx.lanl.gov/pygraphviz/
+    BeautifulSoup - http://www.crummy.com/software/BeautifulSoup/
+             
+
