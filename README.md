@@ -38,7 +38,7 @@ This is a python script that tests and visualizes that using pygraphviz.
 
 ## Example Output
 
-![example output](http://github.com/jdtw/wikipediaphilosophy/blob/master/example.png)
+![example output](https://github.com/jdtw/wikipediaphilosophy/blob/master/example.png)
 
 Generated with `wiki.py -p`.
 
